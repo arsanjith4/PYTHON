@@ -1,0 +1,43 @@
+						LAB EXERCISES
+
+
+EX.NO:03
+
+						USING STRING
+
+AIM:
+
+	To Write a python program to demonstrate the string slicing, concatenation, replication and len() method.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Read a string.
+	3.Read start index.
+	4.Read end index.
+	5.Perform string slicing.
+	6.Display sliced string.
+	7.Read first string.
+	8.Read second string.
+	9.Concatenate both strings.
+	10.Replicate a string.
+	11.Find string length.
+	12.Stop the program.
+
+PROGRAM:
+
+s = input("Enter a string: ")
+start = int(input("Enter the start index: "))
+end = int(input("Enter the end index: "))
+print("Sliced string:", s[start:end])
+first = input("Enter first string: ")
+second = input("Enter second string: ")
+print("Concatenated string:", first + " " + second)
+rep = input("Enter string to replicate: ")
+count = int(input("Enter count: "))
+print("Replicated string:", rep * count)
+print("Length of the string:", len(s))
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.

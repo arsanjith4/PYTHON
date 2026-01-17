@@ -1,0 +1,38 @@
+					LAB EXERCISES
+
+EX.NO:09
+
+				        FILE HANDLING
+
+AIM:
+
+	To write a python program to read a text file and write the content in another file.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Open input file.
+	3.Read contents.
+	4.Close input file.
+	5.Open output file.
+	6.Write contents.
+	7.Save file.
+	8.Close output file.
+	9.Display message.
+	10.Verify file copy.
+	11.End execution.
+	12.Stop the program.
+
+PROGRAM:
+
+infile = open("input.txt","r")
+content = infile.read()
+infile.close()
+outfile = open("output.txt","w")
+outfile.write(content)
+outfile.close()
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.
+

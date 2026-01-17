@@ -1,0 +1,37 @@
+						LAB EXERCISES
+
+EX.NO:08
+
+					NUMPY – AGGREGATE FUNCTIONS
+
+AIM:
+
+	To write a python program to create a 2D-dimensional array and demonstrate aggregation functions sum (), min () and max () in the row and column wise.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Import NumPy
+	3.Read rows and columns
+	4.Read elements
+	5.Create array
+	6.Display array
+	7.Find row sum
+	8.Find column sum
+	9.Find row min
+	10.Find column max
+	11.Display results
+	12.Stop the program.
+
+PROGRAM:
+
+import numpy as np
+a = np.array([[1,2],[3,4]])
+print(np.sum(a, axis=1))
+print(np.sum(a, axis=0))
+print(np.min(a, axis=1))
+print(np.max(a, axis=0))
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.

@@ -1,0 +1,35 @@
+					LAB EXERCISES
+EX.NO:07
+
+			    NUMPY – TWO DIMENSIONAL ARRAY & WHERE()
+
+AIM:
+
+	To write a python program to create two-dimensional array and search for an element using where () function.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Import NumPy
+	3.Read rows and columns
+	4.Read array elements
+	5.Create 2D array
+	6.Display array
+	7.Read search element
+	8.Apply where()
+	9.Check result
+	10.Display positions
+	11.Handle not found case
+	12.Stop the program.
+
+PROGRAM:
+
+import numpy as np
+a = np.array([[1,2],[3,4]])
+search = int(input("Enter element: "))
+pos = np.where(a == search)
+print(pos)
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.

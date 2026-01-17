@@ -1,0 +1,35 @@
+						LAB EXERCISES
+
+EX.NO:10
+
+						USING PANDAS
+
+AIM:
+
+	To write a python program to read a csv file using pandas and print the content.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Import pandas.
+	3.Specify CSV file name.
+	4.Read CSV file.
+	5.Store data in DataFrame.
+	6.Display DataFrame.
+	7.Check data format.
+	8.Verify columns.
+	9.Verify rows.
+	10.Print output.
+	11.End execution.
+	12.Stop the program.
+
+PROGRAM:
+
+import pandas as pd
+df = pd.read_csv("data.csv")
+print(df)
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.
+

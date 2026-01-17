@@ -1,0 +1,36 @@
+								LAB EXERCISES
+
+EX.NO:02
+
+							 USING RANGE () FUNCTION
+
+AIM:
+
+	To  write a python program to find the sum of N number using range () function in for loop.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Read the value of N.
+	3.Initialize sum as 0.
+	4.Start a for loop from 1 to N.
+	5.Add current number to sum.
+	6.Repeat loop until N.
+	7.Exit the loop.
+	8.Store final sum.
+	9.Display the sum.
+	10.Check output correctness.
+	11.End loop execution.
+	12.Stop the program.
+
+PROGRAM:
+
+N = int(input("Enter a positive integer N: "))
+total = 0
+for i in range(1, N + 1):
+    total += i
+print("The sum of the first", N, "numbers is:", total)
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.

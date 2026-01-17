@@ -1,0 +1,41 @@
+						LAB EXERCISES
+
+EX.NO:01
+
+					 GREATEST OF THREE NUMBERS
+
+AIM:
+
+	To write a python program to read three numbers and print the greatest of three numbers.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Read the first number.
+	3.Read the second number.
+	4.Read the third number.
+	5.Compare first and second numbers.
+	6.Compare the largest with the third number.
+	7.Check if first number is the greatest.
+	8.If true, assign it to big.
+	9.Else check if second number is the greatest.
+	10.Assign the greatest value to big.
+	11.Print the greatest number.
+	12.Stop the program.
+
+PROGRAM:
+
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+n3 = int(input("Enter the third number: "))
+if n1 >= n2 and n1 >= n3:
+    big = n1
+elif n2 >= n1 and n2 >= n3:
+    big = n2
+else:
+    big = n3
+print("The greatest of the three numbers is:", big)
+
+RESULT:
+
+	Thus, the Python program to find the greatest of three numbers was executed successfully and the output was obtained.

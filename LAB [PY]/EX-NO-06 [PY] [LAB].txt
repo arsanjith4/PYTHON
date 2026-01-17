@@ -1,0 +1,38 @@
+						LAB EXERCISES
+EX.NO:06
+
+				NUMPY – ONE DIMENSIONAL ARRAY & RESHAPE()
+
+AIM:
+
+	To write a python program to create one dimensional array and convert into a 2D-dimensional array using reshape(), print the first two columns alone using slicing.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Import NumPy
+	3.Read number of elements
+	4.Read elements
+	5.Create 1D array
+	6.Read row size
+	7.Calculate column size
+	8.Reshape array
+	9.Display 2D array
+	10.Print first two columns
+	11.Verify output
+	12.Stop the program.
+
+PROGRAM:
+
+import numpy as np
+n = int(input("Enter number of elements: "))
+a = [int(input()) for i in range(n)]
+a = np.array(a)
+row = int(input("Enter rows: "))
+a2 = a.reshape(row, n//row)
+print(a2)
+print(a2[:, :2])
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.

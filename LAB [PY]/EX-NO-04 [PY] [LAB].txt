@@ -1,0 +1,37 @@
+								LAB EXERCISES
+
+EX.NO:04
+
+							    USING TUPLE AND LIST
+
+AIM:
+
+	To write a python program to create a tuple and convert into a list and print the list in sorted order.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Read input elements.
+	3.Convert input to tuple.
+	4.Display tuple.
+	5.Convert tuple to list.
+	6.Display list.
+	7.Sort the list.
+	8.Store sorted list.
+	9.Print sorted list.
+	10.Verify sorting.
+	11.End process.
+	12.Stop the program.
+
+PROGRAM:
+
+s = input("Enter elements separated by commas: ")
+t = tuple(map(int, s.split(",")))
+print("Tuple:", t)
+li = list(t)
+li.sort()
+print("Sorted list:", li)
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.

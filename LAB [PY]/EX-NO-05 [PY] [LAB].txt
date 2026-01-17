@@ -1,0 +1,40 @@
+					LAB EXERCISES
+EX.NO:05
+
+				       USING DICTIONARY
+
+AIM:
+
+	To write a python program to create a dictionary and check whether a key or value exist in the dictionary.
+
+ALGORITHM:
+
+	1.Start the program.
+	2.Create empty dictionary
+	3.Read number of pairs
+	4.Read key
+	5.Read value
+	6.Store key-value pair
+	7.Repeat for all inputs
+	8.Display dictionary
+	9.Read key to check
+	10.Check key existence
+	11.Check value existence
+	12.Stop the program.
+
+PROGRAM:
+
+d = {}
+n = int(input("Enter number of key-value pairs: "))
+for i in range(n):
+    key = input("Enter key: ")
+    value = input("Enter value: ")
+    d[key] = value
+keycheck = input("Enter key to check: ")
+print("Key exists" if keycheck in d else "Key does not exist")
+valuecheck = input("Enter value to check: ")
+print("Value exists" if valuecheck in d.values() else "Value does not exist")
+
+RESULT:
+
+	Thus, the above Python program is executed and the output is obtained.
